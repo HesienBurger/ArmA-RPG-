@@ -1,9 +1,5 @@
 
 
+execVM "core\config.sqf";
 
-
-switch (playerSide) do {
-	case civilain: {
-		spawn life_fnc_initciv;
-	};
-};
+[] call life_fnc_initciv;

@@ -1,4 +1,4 @@
-author = "ArmA RPG"; 
+author = "ArmA RPG"; // Don't remove credits
 onLoadName = "ArmA RPG";
 onLoadMission = "A roleplay mission developed by ArmA RPG";
 loadScreen = "loadup.jpg";
@@ -6,6 +6,8 @@ joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
+
+// #include "dialog\dialog.h";
 
 class CfgFunctions {
 	#include "ArmARPG.h"

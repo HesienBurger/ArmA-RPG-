@@ -4,7 +4,6 @@
 			Core Functions
 */
 
-
 class life_core
 {
 	tag = "life";
@@ -19,6 +18,11 @@ class life_core
 	{
 		file = "core\civilian";
 		class loadout {};
+	};
+	
+	class functions
+	{
+		file = "core\functions";
 		class LifeStripPlayer {};
 	};
 };

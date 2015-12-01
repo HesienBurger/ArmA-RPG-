@@ -7,7 +7,7 @@
 
 [] call life_fnc_LifeStripPlayer;
 
-player addUniform "U_C_Poloshirt_blue"; // change later
+player addUniform "U_B_Wetsuit"; // change later
 
 player addItem "ItemMap";
 player assignItem "ItemMap";
