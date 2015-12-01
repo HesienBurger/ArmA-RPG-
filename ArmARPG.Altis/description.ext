@@ -1,0 +1,12 @@
+author = "ArmA RPG"; 
+onLoadName = "ArmA RPG";
+onLoadMission = "A roleplay mission developed by ArmA RPG";
+loadScreen = "loadup.jpg";
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 5;
+disabledAI = true;
+
+class CfgFunctions {
+	#include "ArmARPG.h"
+};
