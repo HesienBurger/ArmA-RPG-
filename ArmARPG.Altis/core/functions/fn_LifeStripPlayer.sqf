@@ -4,6 +4,9 @@
 	Description: Strip the player down
 */
 
+//waitUntil{backpack player == "tf_anprc155"};
+//removeBackpack player;
+
 RemoveAllWeapons player;
 {player removeMagazine _x;} foreach (magazines player);
 removeUniform player;

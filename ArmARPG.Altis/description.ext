@@ -7,7 +7,7 @@ respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
 
-// #include "dialog\dialog.h";
+#include "dialog\dialog.h"
 
 class CfgFunctions {
 	#include "ArmARPG.h"
